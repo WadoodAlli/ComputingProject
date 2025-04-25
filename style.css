@@ -1,0 +1,121 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F0F8FF;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0056b3;
+  color: white;
+}
+
+header .logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  color: #00BFFF; /* Highlight Blue */
+}
+
+/* Hero Section */
+.hero {
+  background-color: #007BFF;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  background-color: #00BFFF; /* Highlight Blue */
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Main Content */
+.main-content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.main-content h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.main-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.main-content ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0056b3;
+  color: white;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Scroll Effects */
+a, .cta-btn {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #0056b3;
+}
+
+nav ul li a:hover {
+  color: #00BFFF;
+}
